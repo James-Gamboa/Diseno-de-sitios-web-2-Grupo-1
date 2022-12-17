@@ -1,0 +1,27 @@
+
+/*Responsive para Tablet*/
+@media (max-width: 1023px) { 
+
+}
+
+/*Responsive para Móvil*/
+@media (max-width: 768px) {
+h2.subtitle {
+  text-align: center !important;
+  margin-top: 46px !important;
+}
+
+.container__box {
+  margin: 0 auto !important;
+  justify-content: center !important;
+}
+
+.img__corsair {
+  width: auto !important;
+  height: 190px !important;
+  margin: 0 auto !important;
+}
+.container--product{
+  margin: 0 auto !important;
+}
+}

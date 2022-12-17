@@ -1,2 +1,3 @@
-# Diseno-de-sitios-web-2-Grupo-1
- 
+Andrey Barth Jara
+James Guevara Gamboa
+Marilyn Karina Mena Díaz

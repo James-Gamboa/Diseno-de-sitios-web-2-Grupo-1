@@ -1,0 +1,90 @@
+.container__flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2.subtitle {
+  margin-top: 9px;
+  margin-left: 34px;
+}
+
+.container--product {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  margin: 0% 0% 25% 0%;
+}
+
+.subtitle__secondary{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  margin: 20px;
+}
+
+.text__price {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 3rem;
+  line-height: 56px;
+  text-align: center;
+}
+
+.list__features--styles {
+  list-style: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0% 0% 8% -8%;
+}
+
+.img__star{
+  margin: 2rem;
+}
+
+.img__corsair{
+  width: 497px;
+  height: 497px;
+  margin-top: 3.5%;
+  margin-left: 3%;
+}
+
+
+// @media(min-width: 1024px ){
+//   .container{
+//       max-width: 1349px;
+//       margin:0 auto;
+//     }
+
+// /*Responsive para Móvil*/
+//   @media(min-width: 320px)  and (max-width: 767px ) {
+//     .container{
+//     max-width: 320px;
+//     margin:0 auto;
+//   }
+//   h2.subtitle {
+//     text-align: center ;
+//   }
+  
+//   .container__box {
+//     margin: 0 auto ;
+//     justify-content: center ;
+//   }
+  
+// .img__corsair {
+//     width: 341px ;
+//     height: 341px ;
+//     margin: 0 auto ;
+//   }
+//   }
+
+// @media (min-width: 768px) and (max-width: 1023px){
+//     .container{
+//       min-width: 768px;
+//       margin:0 auto;
+//     }
+//   }
+//   }
