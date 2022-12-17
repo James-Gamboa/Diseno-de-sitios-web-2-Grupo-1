@@ -1,0 +1,66 @@
+.offer-banner {
+  padding: 4%;
+  background: url(../../img_lab2/discount.png);
+  background-size:cover;
+  p{
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+  }
+}
+
+.offer-banner__cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.offer-banner__title--color {
+  color: #E27D60;
+  margin-left: 3%;
+}
+
+.discountOffer {
+  margin-top: 100px;
+}
+
+.discount--display {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.discountOffer__div {
+  margin-left: 160px;
+  margin-top: 25px;
+}
+
+.discount__title {
+  font-size: 64px;
+  color: white;
+}
+
+.offer__title {
+  color: #E27D60;
+  font-size: 64px;
+  margin-left: 15px;
+}
+
+.discOffer__p{
+  font-size: 18px;
+  color: white;
+  margin-top: -35px;
+}
+
+.discount--margin {
+  margin-top: 90px;
+  margin-left: 140px;
+  color: #ececec;
+  font-weight: 600;
+  font-size: 64px;
+}
+
+.discOffer__img {
+  width: 1310px;
+  height: 330px;
+}

@@ -1,0 +1,66 @@
+.our-team {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+
+  h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #E27D60;
+  }
+
+  span{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
+
+.our-team_img-block_cont{
+  display: flex;
+  justify-content: center;
+}
+
+.our-team_img_cont{
+  margin: 10px;
+}
+
+.our-team_text_box{
+  position: relative;
+  left: 392px;
+  margin: 10px 0px 20px 0px ;
+  width: 681px;
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 0.5;
+}
+
+.img-about-us {
+  position: relative;
+  bottom: -69px;
+  left: 95px;
+}
+
+.dr_name{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.profession{
+  line-height: 19px;
+  opacity: 0.5;
+}
+
+.text_cont{
+  text-align: justify;
+}
+.img-our-offer{
+  margin: 40px auto;
+}
+
+

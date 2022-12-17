@@ -1,0 +1,54 @@
+//componentes 
+@import 'components/header';
+@import 'components/circles';
+@import 'components/tratments';
+@import 'components/our-team';
+@import 'components/footer';
+@import 'components/our-reviews';
+@import 'components/products';
+@import 'components/titles';
+@import'components/pricing';
+@import'components/article';
+@import'components/news';
+@import'components/services';
+@import'components/Sass-our-offer-services';
+@import'components/trusted-service';
+@import 'components/ask-us';
+@import 'components/formBanner';
+@import'components/our-offer';
+
+//variables
+@import 'editable/variables';
+
+//global
+@import'editable/global';
+
+//mixins
+@mixin buttom {
+  background-color: #303030;
+  border: #303030;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-top: 50px;
+  &:hover{
+    background-color:  #E27D60;
+  }
+}
+//global-body
+
+body {
+  font-family: $body_family_font;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  @include buttom();
+}
+
+

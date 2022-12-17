@@ -1,0 +1,54 @@
+.formBanner{
+  background-image: url(../../img_lab2/background_footer.svg);
+  background-repeat: no-repeat;
+  background-position: 70%;
+  width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px -95px 0px -95px;
+}
+
+
+.formBanner--info{
+  width: 320px;
+  color: #ffff;
+  margin: -20px 0px 0px 30px;
+
+  &__span{
+    font-size: 15px;
+  }
+
+  &__h2{
+    font-weight: 700;
+    font-size: 30px;
+    width: 300px;
+  }
+
+  &__p{
+    font-size: 15px;
+  }
+
+}
+
+.formBanner--p__span{
+  color: #E27D60;
+  position: relative;
+  top: 0px;
+}
+.formBanner--email{
+  width: 385px;
+  height: 30px;
+}
+
+
+.formBanner--btn{
+  margin-left: 20px;
+  width: 180px;
+  height: 40px;
+  position: relative;
+  bottom: 10px;
+  align-items: center;
+  margin-top: 18px;
+}
