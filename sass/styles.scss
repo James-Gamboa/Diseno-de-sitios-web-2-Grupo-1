@@ -1,0 +1,103 @@
+a{
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 600;
+  color: gray;
+  display: inline-block;
+}
+
+a::after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card:hover {
+  background-color: #ffe24d;
+  opacity: 1;
+  transition: 5ms ease-in-out ;
+}
+.resources{
+  text-align: center;
+  margin: 6% 0% 4% 0%;
+} 
+
+.card{
+  width: 50%;
+  position: relative;
+  border-radius: 0 0 42.5rem 0;
+}
+
+.card--container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 4%;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+.card--btn {
+  background-color: #ffe24d;
+  margin: 4% 47%;
+  width: 14%;
+  padding: 1%;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card--img{
+  border-radius: 10%;
+}
+
+.card--text-cont{
+  width: 68%;
+  margin: 10% 8%;
+}
+
+.card--title{
+  font-size: 32px;
+  margin-bottom: 5%;
+}
+
+.card--info-date{
+  font-size: 24px;
+}
+.card--link::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+}
+.card--link {
+  padding-left: 43px;
+  padding-bottom: 23px;
+  display: none;
+  color: black;
+  cursor: pointer;
+}
+
+.card:hover .card--link {
+  display: inline-block;
+}
+.card--link--arrow:hover{
+  background: linear-gradient(90deg,#ffe24d 11.03%,#99cc7e 53.39%,#93e0f1 103.45%);
+}
+
+.card--link--arrow::after {
+  position: absolute;
+  content: url("data:image/svg+xml;charset=utf-8,%3Csvg width='13' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.53 6.53a.75.75 0 0 0 0-1.06L7.757.697a.75.75 0 1 0-1.06 1.06L10.939 6l-4.242 4.243a.75.75 0 0 0 1.06 1.06L12.53 6.53ZM0 6.75h12v-1.5H0v1.5Z' fill='%23171717'/%3E%3C/svg%3E");
+  bottom: 4%;
+  right: 44%;
+  cursor: pointer;
+}
+
+
+.card--btn:hover{
+  background: linear-gradient(90deg,#ffe24d 11.03%,#99cc7e 53.39%,#93e0f1 103.45%);
+}

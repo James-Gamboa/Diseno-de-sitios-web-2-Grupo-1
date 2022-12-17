@@ -1,0 +1,22 @@
+{
+  "name": "tarea-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css",
+    "sass-build": "node-sass sass -o public/css --output-style compressed",
+    "dev-server": "live-server --watch=\"index.html,sass,js\"",
+    "dev": "npm run sass-build && concurrently \"npm run sass\" \"npm run dev-server\""
+  },
+  "author": "james guevara",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "live-server": "^1.2.2",
+    "livereload": "^0.9.3",
+    "node-sass": "^8.0.0",
+    "sass": "^1.56.1"
+  },
+  "_id": "tarea-4@1.0.0"
+}
