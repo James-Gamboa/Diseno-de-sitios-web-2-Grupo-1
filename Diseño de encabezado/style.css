@@ -1,0 +1,31 @@
+.header {
+  width: 850px;
+  height: 150px;
+  border-style: solid;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  border-style: solid;
+  width: 189px;
+  height: 41px;
+  top: 10px;
+  left: 10px;
+}
+.top-menu {
+  position: absolute;
+  border-style: solid;
+  top: 7px;
+  left: 355px;
+  width: 140px;
+  height: 21px;
+  text-align: center;
+}
+.menu {
+  position: absolute;
+  border-style: solid;
+  top: 79px;
+  left: 184px;
+  width: 302px;
+  height: 28px;
+}

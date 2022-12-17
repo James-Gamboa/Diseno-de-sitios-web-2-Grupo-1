@@ -1,0 +1,23 @@
+.container{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.container div{
+  width: 25%;
+  height: 200px;
+  border-style: solid;
+  position: absolute;
+}
+.container1{
+  left: -170px;
+}
+.container2{
+  left: 266px;
+}
+.container3{
+  left: 697px;
+}
+.container4{
+  left: 1153px;
+}

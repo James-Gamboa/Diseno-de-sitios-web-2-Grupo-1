@@ -1,0 +1,36 @@
+.div-1 {
+  border-style: solid;
+  width: 177px;
+  height: 103px;
+  position: absolute;
+  z-index: 1;
+}
+.div-2 {
+  border-style: solid;
+  width: 177px;
+  height: 149px;
+  position: absolute;
+  z-index: 2;
+  background-color: springgreen;
+  top: 75px;
+  left: 105px;
+}
+.div-3 {
+  border-style: solid;
+  width: 358px;
+  height: 88px;
+  position: absolute;
+  z-index: 3;
+  top: 183px;
+  background-color: red;
+}
+.div-4 {
+  border-style: solid;
+  width: 5%;
+  height: 230px;
+  position: absolute;
+  z-index: 4;
+  left: 332px;
+  background-color: blue;
+  top: 2px;
+}
