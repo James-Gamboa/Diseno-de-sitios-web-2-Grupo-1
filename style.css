@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: slategrey;
+  color: white;
+  width: 100%;
+	padding: 26px;
+}
+
+nav li {
+  background-color:black;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+	background-color: white;
+}
+
+.main-content {
+  float: left;
+  width: 60%;
+	padding: 25px;
+}
+
+.aside-one {
+  float: left;
+  width: 20%;
+	background-color: coral;
+  padding:25px;
+}
+
+.aside-two {
+  float: right;
+  width: 20%;
+	background-color: pink;
+  padding:25px;
+}
+
+aside ul {
+	list-style: none;
+	padding: 0;
+}
+
+aside li {
+  padding: 5px;
+}
+
+footer {
+  background-color: aquamarine;
+  clear: both;
+  width: 100%;
+  padding: 14px;
+}
