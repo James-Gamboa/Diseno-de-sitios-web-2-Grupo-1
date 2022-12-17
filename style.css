@@ -1,0 +1,112 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.div1 {
+  background: #aa1b27;
+}
+
+.div2 {
+  background: #d12263;
+}
+
+.div3 {
+  background: #aa1b27;
+}
+
+.div4 {
+  background: #e8b1bd;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .box {
+    margin-bottom: 1%;
+  }
+
+  .div1 {
+    height: 6rem;
+  }
+
+  .div2 {
+    height: 5rem;
+    margin-bottom: 1%;
+  }
+
+  .div3 {
+    height: 9.6rem;
+    margin-bottom: 5px;
+  }
+
+  .div4 {
+    height: 5rem;
+    margin-bottom: 1%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .box {
+    margin-bottom: 1rem;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .div1 {
+    height: 12rem;
+  }
+
+  .div2 {
+    height: 4.6rem;
+    margin-bottom: 1%;
+  }
+
+  .div3 {
+    height: 7rem;
+    margin-bottom: 1%;
+  }
+
+  .div4 {
+    height: 6.6rem;
+    margin-bottom: 1rem;
+    width: 49.5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .box {
+    margin-bottom: 2%;
+  }
+
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .div1 {
+    height: 21.5rem;
+  }
+
+  .div2 {
+    height: 9.5rem;
+    width: 49.5%;
+  }
+
+  .div3 {
+    height: 11.2rem;
+    width: 32.5%;
+  }
+
+  .div4 {
+    height: 11.2rem;
+    width: 24.5%;
+  }
+}
