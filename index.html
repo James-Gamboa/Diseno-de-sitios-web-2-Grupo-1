@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratorio 1</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--section1-->
+    <section class="section1">
+      <nav>
+        <ul class="form-list">
+          <li>
+            <img src="images/logo.png" alt="logo" />
+          </li>
+          <li>
+            <img src="images/home.png" alt="home" />
+          </li>
+          <li>
+            <img src="images/bell-orange.png" alt="bell-orange" />
+          </li>
+          <li>
+            <img src="images/calendar.png" alt="calendar" />
+          </li>
+          <li>
+            <img src="images/show-chart.png" alt="show-chart" />
+          </li>
+          <li>
+            <img src="images/profile.png" alt="profile" />
+          </li>
+          <li>
+            <img id="settings-orange" src="images/settings-orange.png" alt="settings-orange" />
+          </li>
+        </ul>
+      </nav>
+      <div class="container-menu">
+        <span class="container-menu-settings">Settings</span>
+        <img  class="return" src="images/return.png" alt="return">
+        <ul>
+          <li><span class="container-menu-profile">Edit Profile</span>
+          <img class="edit" src="images/edit.png" alt="edit-profile"></li>
+          <li><span >Notification</span>
+          <img class="notification" src="images/bell-gray.png" alt="bell-gray"></li>
+          <li><span >Security</>
+          <img class="security" src="images/lock.png" alt="lock"></li>
+          <li><span>Appereance</span>
+          <img  class="settings" src="images/settings-gray.png" alt="settings-gray"></li>
+          <li><span>Help</span>
+          <img class="help" src="images/help.png" alt="help"></li>
+        </ul>
+      </div>
+    </section>
+    <!--second-section-->
+    <main>
+      <div class="title">
+        <h1>Edit profile</h1>
+        <img src="images/person.png" alt="person">
+        <img  class="person-bell" src="images/person-bell.png" alt="settings-gray">
+      </div>
+      <form>
+        <div class="form-flex">
+          <div>
+            <label for="name">First Name</label>
+            <input type="text" name="name" id="name" placeholder="Mehrab" />
+          </div>
+          <div>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="name" id="last-name" placeholder="Bozogi"/>
+          </div>
+        </div>
+        <label for="email">E-mail</label>
+        <img src="images/check.png" class="check" alt="check">
+        <input type="email" name="name" id="email" placeholder="Mehrabbozorgi.business@gmail.com"/>
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" placeholder="33062 Zboncak isle"/>
+        <label for="contact">Contact</label>
+        <input type="tel" name="contact" id="contact" placeholder="58077.79" />
+        <div class="form-flex">
+          <div>
+            <label for="city">City</label>
+            <select name="city" id="city">
+              <option value="0">Mehrab</option>
+              <option value="1">Riad</option>
+              <option value="2">Dammam</option>
+              <option value="3">Yeda</option>
+            </select>
+          </div>
+          <div>
+            <label for="city">State</label>
+            <select name="city" id="city">
+              <option value="0">Bozorgi</option>
+              <option value="1">Tabuk</option>
+              <option value="2">Aljawf</option>
+              <option value="3">Najran</option>
+            </select>
+          </div>
+        </div>
+        <label for="password">Password</label>
+        <img src="images/check-2.png" class="check2" alt="check">
+        <input type="password" name="password" id="password" placeholder="sbdfbnd65sfdvb s"/>
+        <div class="form-flex form-botton">
+          <input type="reset" name="cancel" id="form-reset" value="Cancel" />
+          <input type="submit" name="save" id="form-submit" value="Save" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
